@@ -21,6 +21,7 @@ main {
   background-color: rgb(221, 242, 243);
   margin-left: 175px;
   margin-right: 175px;
+  margin-bottom: 175px;
 }
 header {
   text-align: center;
@@ -59,7 +60,9 @@ aside {
   background-color: rgb(211, 211, 211);
   flex-direction: row;
   justify-content: center;
-  padding: 15px;
+  bottom: 0;
+  padding: 25px;
+  margin-bottom: 0;
   list-style: none;
   text-decoration: underline;
 }
